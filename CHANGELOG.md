@@ -1,5 +1,29 @@
 # kilo-code
 
+## 5.9.0
+
+### Minor Changes
+
+- [#5560](https://github.com/Kilo-Org/kilocode/pull/5560) [`84ab615`](https://github.com/Kilo-Org/kilocode/commit/84ab615365737f1db98ac9297bbffa8829c04963) Thanks [@marciepeters](https://github.com/marciepeters)! - Add Poe as a supported API provider
+
+### Patch Changes
+
+- [#5968](https://github.com/Kilo-Org/kilocode/pull/5968) [`053775e`](https://github.com/Kilo-Org/kilocode/commit/053775e2e797d6c0a7dd23026823106132c4cd70) Thanks [@Olusammytee](https://github.com/Olusammytee)! - Normalize legacy Claude Code model IDs so dated aliases resolve to canonical model metadata and preserve capabilities (including image support).
+
+- [#5916](https://github.com/Kilo-Org/kilocode/pull/5916) [`8cceb67`](https://github.com/Kilo-Org/kilocode/commit/8cceb678a3c49f93639f81bb8e5cbaa60ae290c9) Thanks [@Githubguy132010](https://github.com/Githubguy132010)! - Fix blank messages and UI not updating when canceling a task in Agent Manager
+
+- [#5634](https://github.com/Kilo-Org/kilocode/pull/5634) [`be40801`](https://github.com/Kilo-Org/kilocode/commit/be40801adb101b2da622095ea4961f9b92220f78) Thanks [@Patel230](https://github.com/Patel230)! - Fix context condensing prompt not saving properly
+
+- [#5864](https://github.com/Kilo-Org/kilocode/pull/5864) [`c92c6b1`](https://github.com/Kilo-Org/kilocode/commit/c92c6b1675adfb53ae591931dd7c600b8e67551f) Thanks [@Githubguy132010](https://github.com/Githubguy132010)! - Fixed organization selector overlapping with "Recent" text in chat pane header
+
+- [#5267](https://github.com/Kilo-Org/kilocode/pull/5267) [`1467783`](https://github.com/Kilo-Org/kilocode/commit/14677835d2a279dcf2022b4ce76394a5532e2c7b) Thanks [@maywzh](https://github.com/maywzh)! - fix: preserve extra_content for Gemini 3 thought_signature support
+
+- [#5648](https://github.com/Kilo-Org/kilocode/pull/5648) [`af395f8`](https://github.com/Kilo-Org/kilocode/commit/af395f8e55674f13a46b17a90b4d458aef4f27bd) Thanks [@DDU1222](https://github.com/DDU1222)! - Feature: add new provider AIHubmix
+
+- [#5893](https://github.com/Kilo-Org/kilocode/pull/5893) [`e29306d`](https://github.com/Kilo-Org/kilocode/commit/e29306d8f4ca9b5a0f9ad714b867a81ae5df17cb) Thanks [@evanjacobson](https://github.com/evanjacobson)! - Fix duplicate text output when using OpenAI-compatible providers with streaming disabled.
+
+- [#5885](https://github.com/Kilo-Org/kilocode/pull/5885) [`c7d5865`](https://github.com/Kilo-Org/kilocode/commit/c7d5865ac2f7004b31a31f1f28886987294f62a1) Thanks [@Olusammytee](https://github.com/Olusammytee)! - fix: cap qwen3-max-thinking max_tokens to provider limit
+
 ## 5.8.1
 
 ### Patch Changes
